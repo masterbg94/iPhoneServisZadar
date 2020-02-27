@@ -1,0 +1,87 @@
+@import "../../../styles/pallete";
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-dark;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    padding: 20px 0;
+
+    .footer-short {
+      display: flex;
+      flex-direction: column;
+
+      .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        img {
+          max-height: 40px;
+        }
+
+        p {
+          font-size: 20px;
+          margin-left: 10px;
+          font-weight: bold;
+          line-height: 22px;
+        }
+      }
+
+      p {
+        color: $app-bg-light;
+        font-weight: 300;
+        max-width: 400px;
+        line-height: 16px;
+        font-size: 14px;
+      }
+    }
+
+    .footer-menu {
+      display: flex;
+
+      p {
+        color: $app-bg-light;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer-copyrights {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-dark;
+  border-top: 1px solid #323232;
+
+  .copyrights-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    padding: 10px 0;
+
+    p {
+      font-size: 14px;
+      line-height: 18px;
+      color: $app-bg-light;
+    }
+
+    .cards {
+      display: flex;
+      align-items: center;
+
+      img {
+        max-height: 40px;
+      }
+    }
+  }
+}

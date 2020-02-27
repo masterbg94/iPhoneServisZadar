@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import "./app/styles/pallete";
+
+html, body { height: 100%; }
+//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  //font-family: 'Lato', sans-serif;
+  //font-family: 'Raleway', sans-serif;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.font-default{
+  font-size: 16px;
+  line-height: 22px;
+}
+.font-medium{
+  font-size: 22px;
+  line-height: 26px;
+}
+.font-heading{
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.btn-dark{
+  border: 2px solid $app-bg-dark;
+  color: $app-bg-light;
+  background: $app-bg-dark;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.btn-transparent-dark{
+  border: 2px solid $app-bg-dark;
+  color: $app-bg-dark;
+  background: transparent;
+  border-radius: 20px;
+  height: 40px;
+  &:hover{
+    background: #212121;
+    color: white;
+    transition: .5s;
+  }
+}

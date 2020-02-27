@@ -1,0 +1,60 @@
+@import "../../../styles/pallete";
+
+.whyus-container {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-light2;
+
+  .whyus-content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+    .choose-heading {
+      //font-size: 50px;
+      //line-height: 60px;
+      font-weight: bold;
+      margin-bottom: 45px;
+      color: $app-bg-dark;
+    }
+
+    .choose-us-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+
+      .choose-us-item {
+        max-width: 220px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .choose-item-subheading {
+          //line-height: 18px;
+          height: 32px;
+          text-align: center;
+          margin: 10px auto;
+          display: flex;
+          align-items: center;
+          //font-size: 16px;
+          font-weight: bold;
+          color: $app-bg-dark;
+        }
+
+        .choose-us-text {
+          text-align: center;
+          //font-size: 14px;
+          //line-height: 16px;
+          color: $app-bg-dark;
+        }
+      }
+    }
+  }
+}

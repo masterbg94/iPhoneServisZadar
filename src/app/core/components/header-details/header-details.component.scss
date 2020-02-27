@@ -1,0 +1,71 @@
+@import "../../../styles/pallete";
+
+.header-container {
+  display: flex;
+  justify-content: center;
+
+  .header-content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 50%;
+
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $app-bg-dark;
+
+        &:first-of-type {
+          font-size: 60px;
+          line-height: 70px;
+          margin-top: 40px;
+          font-weight: 900;
+        }
+      }
+
+      .buttons {
+        display: flex;
+
+        button {
+          width: 150px;
+          font-size: 16px;
+          line-height: 30px;
+          margin-bottom: 40px;
+          cursor: pointer;
+
+          &.more {
+            border: 2px solid $app-bg-dark;
+            color: $app-bg-dark;
+            background: transparent;
+          }
+
+          &.contact {
+            border: 2px solid $app-bg-dark;
+            color: $app-bg-light;
+            background: $app-bg-dark;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    .header-img {
+      display: flex;
+      width: 50%;
+
+      img {
+        object-fit: contain;
+        max-height: 350px;
+      }
+    }
+  }
+}

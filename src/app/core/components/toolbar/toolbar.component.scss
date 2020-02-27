@@ -1,0 +1,45 @@
+@import "../../../styles/pallete";
+
+.toolbar-container {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-dark;
+  box-shadow: 1px 5px 8px rgba(0,0,0,0.5);
+  position: relative;
+
+  .toolbar-content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+
+    p {
+      color: $app-bg-light;
+      margin-left: 20px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .toolbar-logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 70%;
+      }
+
+    }
+
+    .toolbar-menu {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 50px;
+        font-weight: 500;
+      }
+    }
+  }
+}

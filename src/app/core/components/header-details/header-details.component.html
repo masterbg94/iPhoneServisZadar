@@ -1,0 +1,15 @@
+<div class="header-container" [style.background]="headerData.background">
+  <div class="header-content">
+    <div class="header-text">
+      <p>{{headerData.title}}</p>
+      <p>{{headerData.description}}</p>
+      <div class="buttons">
+        <button class="btn-transparent-dark">More</button>
+        <button class="btn-dark" style="margin-left: 10px">Contact</button>
+      </div>
+    </div>
+    <div class="header-img">
+      <img [src]="headerData.image" alt="" class="img-fluid">
+    </div>
+  </div>
+</div>
