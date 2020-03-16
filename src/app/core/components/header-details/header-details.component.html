@@ -1,7 +1,7 @@
 <div class="header-container" [style.background]="headerData.background">
   <div class="header-content">
     <div class="header-text">
-      <p>{{headerData.title}}</p>
+      <p [innerHTML]="headerData.title"></p>
       <p>{{headerData.description}}</p>
       <div class="buttons">
         <button class="btn-transparent-dark">More</button>

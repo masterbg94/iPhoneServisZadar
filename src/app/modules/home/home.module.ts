@@ -7,6 +7,7 @@ import {WhyusModule} from '../../core/components/whyus/whyus.module';
 import {AboutUsShortModule} from '../../core/components/about-us-short/about-us-short.module';
 import {AccessorizesModule} from '../../core/components/accessorizes/accessorizes.module';
 import {GuaranteModule} from '../../core/components/guarantee/guarante.module';
+import {FaqModule} from '../../core/components/FAQ/faq.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import {GuaranteModule} from '../../core/components/guarantee/guarante.module';
     WhyusModule,
     AboutUsShortModule,
     AccessorizesModule,
-    GuaranteModule
+    GuaranteModule,
+    FaqModule
   ],
   declarations: [
     HomeComponent

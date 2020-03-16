@@ -5,6 +5,10 @@ const ROUTES: Routes = [
   {
     path: '',
     loadChildren: './modules/home/home.module#HomeModule'
+  },
+  {
+    path: 'contact',
+    loadChildren: './modules/contact/contact.module#ContactModule'
   }
 ];
 @NgModule({
