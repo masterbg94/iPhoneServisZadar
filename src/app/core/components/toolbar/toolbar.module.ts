@@ -1,9 +1,12 @@
 import {NgModule} from '@angular/core';
 
 import {ToolbarComponent} from './toolbar.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
-  imports: [],
+  imports: [
+    RouterModule
+  ],
   exports: [ToolbarComponent],
   declarations: [ToolbarComponent]
 })

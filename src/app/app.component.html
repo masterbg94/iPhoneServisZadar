@@ -1,3 +1,75 @@
-<app-toolbar-component></app-toolbar-component>
-<router-outlet></router-outlet>
-<app-footer-component></app-footer-component>
+<div *ngIf="innerWidth>=1024">
+  <app-toolbar-component></app-toolbar-component>
+  <router-outlet></router-outlet>
+  <app-footer-component></app-footer-component>
+</div>
+
+<mat-sidenav-container class="sidenav-container" *ngIf="innerWidth<1024">
+
+  <mat-sidenav
+      #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="'over'"
+      [opened]="false">
+
+    <mat-toolbar>
+      <img src="../../../../assets/img/steve-jobs-logo.png" alt="" height="20px">
+      <p>iPhone servis Zadar</p>
+    </mat-toolbar>
+
+    <mat-nav-list (click)="drawer.toggle()">
+      <mat-list-item
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}"
+        routerLink="/"
+      >
+        <a matLine>Home</a>
+        <button mat-icon-button>
+          <mat-icon>home</mat-icon>
+        </button>
+      </mat-list-item>
+      <mat-list-item
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}"
+        routerLink="/about">
+        <a matLine>About</a>
+        <button mat-icon-button>
+          <mat-icon>phone_iphone</mat-icon>
+        </button>
+      </mat-list-item>
+      <mat-list-item
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}"
+        routerLink="/contact">
+        <a matLine>Contact</a>
+        <button mat-icon-button>
+          <mat-icon>location_on</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+
+  <mat-sidenav-content>
+
+    <mat-toolbar class="toolbar-main">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+      >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <p>iPhone servis Zadar</p>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+    <app-footer-component></app-footer-component>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+

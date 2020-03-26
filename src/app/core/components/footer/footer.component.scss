@@ -7,6 +7,7 @@
 
   .footer-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1024px;
     width: 100%;
@@ -49,7 +50,7 @@
         flex-direction: column;
         p {
           color: $app-bg-light;
-          margin-left: 20px;
+          //margin-left: 20px;
           cursor: pointer;
           font-size: 14px;
           line-height: 18px;
@@ -99,3 +100,19 @@
     }
   }
 }
+@media screen and (max-width: 768px){
+  .footer-menu{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .footer-container{
+    padding: 0 10px;
+  }
+  .copyrights-content{
+    padding-left:  10px!important;
+    padding-right: 10px!important;
+  }
+}
+

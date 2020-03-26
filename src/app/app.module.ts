@@ -20,7 +20,7 @@ import {CustomMaterialModule} from './custom.material.module';
     AppRoutingModule,
     FooterModule,
     BrowserAnimationsModule,
-    // CustomMaterialModule
+    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

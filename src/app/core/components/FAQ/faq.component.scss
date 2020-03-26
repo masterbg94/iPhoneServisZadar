@@ -27,7 +27,23 @@
     position: absolute;
     bottom: 0;
     max-height: 100%;
-    z-index: 2;
+    z-index: -2;
     right: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faq-content {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq-content {
+    justify-content: center !important;
+
+    .exp-item {
+      width: 90% !important;
+    }
   }
 }

@@ -1,4 +1,109 @@
-h1{
-  color: #F7B500;
-  font-weight: bold;
+@import "../../../styles/pallete";
+
+.contact-header-container {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-dark;
+
+  .contact-header-content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      max-height: 400px;
+    }
+  }
 }
+
+.contact-info-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .contact-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: 1024px;
+    justify-content: space-between;
+    //padding: 50px 0;
+    box-shadow: 2px 5px 50px black;
+    z-index: 2;
+    position: absolute;
+    top: -200px;
+
+    .info-details {
+      display: flex;
+      //flex: 1;
+      width: 40%;
+      flex-direction: column;
+      //padding-top: 20px;
+      //padding-left: 20px;
+      padding: 20px;
+      //align-items: center;
+      //justify-content: space-evenly;
+      background: $app-bg-dark2;
+
+      &-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        a, p {
+          color: $app-bg-light;
+        }
+
+        mat-icon {
+          margin-right: 10px;
+          color: $app-bg-light;
+          //color: $app-orange-detail;
+        }
+      }
+    }
+
+    .mail-form {
+      //flex: 1;
+      width: 60%;
+      padding: 20px;
+      background: $app-bg-light;
+    }
+  }
+}
+
+
+//@media screen and (max-width: 600px) {
+//  .contact-info-content {
+//    flex-direction: column;
+//    padding: 20px 0 !important;
+//
+//    .info-details {
+//      padding-top: 0 !important;
+//    }
+//  }
+//}
+@media screen and (max-width: 768px) {
+  .contact-header-content {
+    padding-bottom: 250px;
+  }
+  .contact-info-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+
+    .contact-info-content {
+      top: -410px;
+
+      .info-details, .mail-form {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+//@media screen and (max-width: 1024px) {
+//  .contact-info-container {
+//    padding: 0 10px;
+//  }
+//}

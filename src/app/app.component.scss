@@ -1,0 +1,71 @@
+@import "./styles/pallete";
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 100%;
+  max-width: 340px;
+}
+
+mat-sidenav-container {
+  mat-sidenav {
+    mat-toolbar {
+      background: $app-bg-dark;
+
+      p {
+        margin: auto;
+        color: white;
+      }
+    }
+
+    mat-nav-list {
+      padding-top: 0;
+
+      mat-list-item {
+        a {
+          color: $app-bg-dark;
+        }
+
+        button {
+          mat-icon {
+            color: $app-bg-dark;
+          }
+        }
+      }
+      //Active route
+      .active {
+        background: $app-bg-dark2;
+
+        a {
+          color: #F7B500;
+        }
+
+        button {
+          mat-icon {
+            color: #F7B500;
+          }
+        }
+      }
+    }
+  }
+
+  mat-sidenav-content {
+    mat-toolbar {
+      background: $app-bg-dark2;
+
+      button {
+        mat-icon {
+          color: white;
+        }
+      }
+
+      p {
+        margin: auto;
+        padding-right: 40px;
+        color: white;
+      }
+    }
+  }
+}
