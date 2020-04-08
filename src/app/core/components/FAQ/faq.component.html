@@ -2,44 +2,34 @@
   <p class="font-heading"><b>FAQ</b></p>
   <p>Frequently asked questions</p>
   <div class="faq-content">
-<!--    <mat-accordion>-->
-
-
-
-
-<!-- FALI MAT ACCORDION ZA ZATVARANJE AUTOMATSKO
- ############################################################ -->
-
-      <div class="exp-item">
-        <mat-expansion-panel (opened)="panelOpenState = true"
-                             (closed)="panelOpenState = false">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Ask us question 1 ?
-            </mat-panel-title>
-            <mat-panel-description>
-              click to see answer {{panelOpenState ? 'open' : 'closed'}}
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
-        </mat-expansion-panel>
-      </div>
-
-      <div class="exp-item">
-        <mat-expansion-panel (opened)="panelOpenState1 = true"
-                             (closed)="panelOpenState1 = false">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              Ask us question 2 ?
-            </mat-panel-title>
-            <mat-panel-description>
-              click to see answer {{panelOpenState1 ? 'open' : 'closed'}}
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
-        </mat-expansion-panel>
-      </div>
-
+    <div class="exp-item">
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Ask us question 1 ?
+          </mat-panel-title>
+          <mat-panel-description>
+            click to see answer {{panelOpenState ? 'open' : 'closed'}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>I'm visible because I am open</p>
+      </mat-expansion-panel>
+    </div>
+    <div class="exp-item">
+      <mat-expansion-panel (opened)="panelOpenState1 = true"
+                           (closed)="panelOpenState1 = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Ask us question 2 ?
+          </mat-panel-title>
+          <mat-panel-description>
+            click to see answer {{panelOpenState1 ? 'open' : 'closed'}}
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>I'm visible because I am open</p>
+      </mat-expansion-panel>
+    </div>
     <div class="exp-item">
       <mat-expansion-panel (opened)="panelOpenState2 = true"
                            (closed)="panelOpenState2 = false">
@@ -54,7 +44,6 @@
         <p>I'm visible because I am open</p>
       </mat-expansion-panel>
     </div>
-
     <div class="exp-item">
       <mat-expansion-panel (opened)="panelOpenState3 = true"
                            (closed)="panelOpenState3 = false">
@@ -69,35 +58,6 @@
         <p>I'm visible because I am open</p>
       </mat-expansion-panel>
     </div>
-
-<!--    <mat-expansion-panel (opened)="panelOpenState = true"-->
-<!--                         (closed)="panelOpenState = false">-->
-<!--      <mat-expansion-panel-header>-->
-<!--        <mat-panel-title>-->
-<!--          Ask us question 3 ?-->
-<!--        </mat-panel-title>-->
-<!--        <mat-panel-description>-->
-<!--          click to see answer {{panelOpenState ? 'open' : 'closed'}}-->
-<!--        </mat-panel-description>-->
-<!--      </mat-expansion-panel-header>-->
-<!--      <p>I'm visible because I am open</p>-->
-<!--    </mat-expansion-panel>-->
-
-<!--    <mat-expansion-panel (opened)="panelOpenState = true"-->
-<!--                         (closed)="panelOpenState = false">-->
-<!--      <mat-expansion-panel-header>-->
-<!--        <mat-panel-title>-->
-<!--          Ask us question 4 ?-->
-<!--        </mat-panel-title>-->
-<!--        <mat-panel-description>-->
-<!--          click to see answer {{panelOpenState ? 'open' : 'closed'}}-->
-<!--        </mat-panel-description>-->
-<!--      </mat-expansion-panel-header>-->
-<!--      <p>I'm visible because I am open</p>-->
-<!--    </mat-expansion-panel>-->
-
-<!--    </mat-accordion>-->
-
   </div>
   <img src="./assets/img/undraw_faq_rjoy.svg" alt="faq-img-iphone-servis-zadar" class="img-fluid" id="faq-img">
 </div>

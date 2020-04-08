@@ -1,14 +1,33 @@
-<div class="accessorizes-container">
-  <div class="accessorizes-content">
-    <div class="accessorize-image">
-      <img src="./assets/img/headphones.png" alt="" class="img-fluid">
-    </div>
-    <div class="accessorize-text">
-      <p class="font-heading">Accessorizes</p>
-      <p class="font-default">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-        laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      <button class="btn-transparent-light">More</button>
+<!--<div class="accessorizes-container">-->
+<!--  <div class="accessorizes-content">-->
+<!--    <div class="accessorize-image">-->
+<!--      <img src="./assets/img/headphones.png" alt="" class="img-fluid">-->
+<!--    </div>-->
+<!--    <div class="accessorize-text">-->
+<!--      <p class="font-heading">Accessorizes</p>-->
+<!--      <p class="font-default">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque-->
+<!--        laudantium, totam rem-->
+<!--        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>-->
+<!--      <button class="btn-transparent-light">More</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<div class="container-fluid" style="background: #212121" id="acc-container">
+  <div class="container py-5">
+    <div class="row d-flex flex-row flex-wrap-reverse" >
+      <div class="col-md-6 col-sm-6 d-flex flex-column align-content-center justify-content-center">
+        <img src="./assets/img/headphones.png" alt="" class="img-fluid" style="max-height: 400px">
+        <button class="btn-transparent-light mt-5 small-button align-self-center" *ngIf="innerWidth<767">More</button>
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center" id="accessorize-text">
+        <p class="font-heading mb-3">Accessorizes</p>
+        <p class="font-default mt-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <button class="btn-transparent-light mt-5 big-button" *ngIf="innerWidth>=768">More</button>
+      </div>
     </div>
   </div>
 </div>

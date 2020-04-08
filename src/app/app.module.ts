@@ -8,6 +8,7 @@ import {AppRoutingModule} from './app.routing.module';
 import {FooterModule} from './core/components/footer/footer.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {CustomMaterialModule} from './custom.material.module';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {CustomMaterialModule} from './custom.material.module';
     AppRoutingModule,
     FooterModule,
     BrowserAnimationsModule,
-    CustomMaterialModule
+    CustomMaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

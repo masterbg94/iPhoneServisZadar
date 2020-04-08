@@ -7,12 +7,16 @@ const ROUTES: Routes = [
     loadChildren: './modules/home/home.module#HomeModule'
   },
   {
-    path: 'contact',
-    loadChildren: './modules/contact/contact.module#ContactModule'
-  },
-  {
     path: 'about',
     loadChildren: './modules/about/about.module#AboutModule'
+  },
+  {
+    path: 'services',
+    loadChildren: './modules/services/services.module#ServicesModule'
+  },
+  {
+    path: 'contact',
+    loadChildren: './modules/contact/contact.module#ContactModule'
   }
 ];
 @NgModule({

@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+
 import {AboutUsShortComponent} from './about-us-short.component';
 
 @NgModule({

@@ -16,8 +16,6 @@
     margin-top: 60px;
 
     .choose-heading {
-      //font-size: 50px;
-      //line-height: 60px;
       font-weight: bold;
       margin-bottom: 45px;
       color: $app-bg-dark;
@@ -42,28 +40,22 @@
           img {
             max-height: 150px;
             height: 100%;
-
-            //  za pun prikaz
             width: 100%;
           }
         }
 
         .choose-item-subheading {
-          //line-height: 18px;
           height: 32px;
           text-align: center;
           margin: 10px auto;
           display: flex;
           align-items: center;
-          //font-size: 16px;
           font-weight: bold;
           color: $app-bg-dark;
         }
 
         .choose-us-text {
           text-align: center;
-          //font-size: 14px;
-          //line-height: 16px;
           color: $app-bg-dark;
         }
       }
@@ -72,15 +64,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .whyus-content{
+  .whyus-content {
     padding: 0 10px;
   }
 }
+
 @media screen and (max-width: 560px) {
-  .choose-heading{
+  .choose-heading {
     text-align: center;
   }
-  .choose-us-item{
+  .choose-us-item {
     margin-bottom: 10px;
   }
 }

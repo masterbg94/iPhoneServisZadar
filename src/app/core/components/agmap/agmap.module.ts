@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
 
 import {AgmapComponent} from './agmap.component';
+
 import {AgmCoreModule} from '@agm/core';
 
 @NgModule({

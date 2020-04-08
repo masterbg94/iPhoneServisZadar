@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
-import {WhyusComponent} from './whyus.component';
 import {CommonModule} from '@angular/common';
+
+import {WhyusComponent} from './whyus.component';
 
 @NgModule({
   imports: [

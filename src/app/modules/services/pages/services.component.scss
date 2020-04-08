@@ -1,0 +1,128 @@
+@import "../../../styles/pallete";
+
+.services-heading {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(159, 159, 159, 0.3), $app-bg-dark), url("../../../../assets/img/services-0.jpg");
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+
+    p {
+      color: $app-bg-light2;
+      text-align: center;
+    }
+  }
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  background: $app-bg-dark;
+
+  .services-content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .services-info {
+      text-align: center;
+      margin: 50px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        color: $app-bg-light2;
+        max-width: 80%;
+
+        &:first-of-type {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .zz {
+      display: flex;
+      margin: 50px 0;
+      position: relative;
+      justify-content: flex-end;
+      align-items: center;
+
+      .zz-text {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 90%;
+        width: 55%;
+        left: 0;
+        padding: 40px;
+        background: $app-bg-dark2;
+
+        p {
+          color: $app-bg-light2;
+
+          &:first-of-type {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .zz-img {
+        width: 50%;
+      }
+
+      &.left {
+        justify-content: flex-start;
+
+        .zz-text {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .zz.zig {
+    margin-top: 310px!important;
+
+    .zz-text {
+      padding: 15px!important;
+      top: -280px!important;
+      height: auto!important;
+      width: 85% !important;
+    }
+
+    .zz-img {
+      width: 90% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .zz {
+    flex-direction: column;
+    margin-top: 180px!important;
+
+    .zz-text {
+      top: -150px;
+      height: auto!important;
+      width: 80% !important;
+    }
+
+    .zz-img {
+      width: 80% !important;
+    }
+  }
+}

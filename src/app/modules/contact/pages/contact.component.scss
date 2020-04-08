@@ -9,8 +9,13 @@
     max-width: 1024px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: space-between;
+    p{
+      color: $app-bg-light2;
+      padding-top: 30px;
+      max-width: 50%;
+      width: 100%;
+    }
     img {
       max-height: 400px;
     }
@@ -86,6 +91,18 @@
 @media screen and (max-width: 768px) {
   .contact-header-content {
     padding-bottom: 250px;
+    p{
+      color: $app-bg-light2;
+      padding-top: 15px!important;
+      max-width: 90% !important;
+      width: 50% !important;
+      font-size: 32px;
+      line-height: 35px;
+      padding-left: 15px;
+    }
+    img{
+      width: 50% !important;
+    }
   }
   .contact-info-container {
     flex-direction: column;
@@ -93,10 +110,13 @@
     margin: 0 20px;
 
     .contact-info-content {
-      top: -410px;
+      top: -380px;
 
       .info-details, .mail-form {
         width: 100% !important;
+      }
+      .info-details{
+        background: rgba(0,0,0,-0.5) !important;
       }
     }
   }

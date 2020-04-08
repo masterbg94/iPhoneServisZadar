@@ -6,8 +6,8 @@ import {Component} from '@angular/core';
   styleUrls: ['./agmap.component.scss']
 })
 export class AgmapComponent {
-  lat = 44.115663;
-  lng = 15.260537;
+  lat = 44.114979;
+  lng = 15.260582;
   zoom = 15;
   disejblskrol = false;
 }
