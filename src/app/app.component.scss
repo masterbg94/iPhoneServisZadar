@@ -34,6 +34,7 @@ mat-sidenav-container {
           }
         }
       }
+
       //Active route
       .active {
         background: $app-bg-dark2;
@@ -61,10 +62,15 @@ mat-sidenav-container {
         }
       }
 
-      p {
+      .d-flex.align-items-center {
         margin: auto;
         padding-right: 40px;
-        color: white;
+        img{
+          margin-right: 10px;
+        }
+        p {
+          color: white
+        }
       }
     }
   }

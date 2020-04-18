@@ -1,9 +1,12 @@
 import {NgModule} from '@angular/core';
 
 import {GuaranteComponent} from './guarante.component';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   exports: [
     GuaranteComponent
   ],

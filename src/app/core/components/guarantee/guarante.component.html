@@ -1,14 +1,19 @@
-<div class="guarantee-container">
-  <div class="guarantee-content">
-    <div class="guarantee-text">
-      <p class="font-heading">Guarantee</p>
-      <p class="font-default">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-        laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      <button class="btn-transparent-light">More</button>
-    </div>
-    <div class="guarantee-image">
-      <img src="./assets/img/apple-guarantee0.png" alt="" class="img-fluid">
+<div class="container-fluid mt-2" style="background: #212121">
+  <div class="container py-5">
+    <div class="row d-flex">
+      <div class="col-md-6 d-flex flex-column justify-content-center" id="guarante-text">
+        <p class="font-heading mb-3">Guarantee</p>
+        <p class="font-default mt-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque
+          laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.</p>
+        <button class="btn-transparent-light mt-5 big-button" *ngIf="innerWidth>=768">More</button>
+      </div>
+      <div class="col-md-6 col-sm-6 d-flex flex-column align-items-center justify-content-center" id="guarante-img">
+        <img src="./assets/img/apple-guarantee0.png" alt="" class="img-fluid">
+        <button class="btn-transparent-light mt-5 small-button align-self-center" *ngIf="innerWidth<767">More</button>
+      </div>
     </div>
   </div>
 </div>

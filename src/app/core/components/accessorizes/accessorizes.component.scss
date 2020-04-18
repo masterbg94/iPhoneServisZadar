@@ -1,65 +1,11 @@
 @import "../../../styles/pallete";
 
-//.accessorizes-container {
-//  display: flex;
-//  justify-content: center;
-//  background: $app-bg-dark;
-//  margin: 0px 15px 15px;
-//
-//  .accessorizes-content {
-//    display: flex;
-//    flex-wrap: wrap;
-//    justify-content: space-between;
-//    max-width: 1024px;
-//    width: 100%;
-//    margin: 50px 0;
-//
-//    .accessorize-image {
-//      display: flex;
-//      align-items: center;
-//      justify-content: center;
-//      flex: 1;
-//      padding: 25px;
-//
-//      img {
-//        max-height: 400px;
-//      }
-//    }
-//
-//    .accessorize-text {
-//      display: flex;
-//      flex-direction: column;
-//      justify-content: center;
-//      flex: 1;
-//      padding: 30px;
-//      text-align: right;
-//      align-items: flex-end;
-//
-//      p {
-//        color: $app-bg-light2;
-//      }
-//
-//      p:first-of-type {
-//        font-weight: bold;
-//        margin-bottom: 45px;
-//      }
-//
-//      button {
-//        width: 100%;
-//        max-width: 152px;
-//        transition: .6s;
-//        cursor: pointer;
-//        margin-top: 20px;
-//      }
-//    }
-//  }
-//}
-
 #acc-container {
   button {
     width: 200px;
   }
-  img{
+
+  img {
     object-fit: contain;
   }
 }
@@ -70,9 +16,10 @@
   }
 }
 
-@media screen and (max-width: 560px){
-  #acc-container img{
+@media screen and (max-width: 560px) {
+  #acc-container img {
     margin-top: 20px;
+    max-width: 50%;
   }
 }
 
