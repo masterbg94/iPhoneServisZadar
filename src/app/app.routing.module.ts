@@ -17,6 +17,10 @@ const ROUTES: Routes = [
   {
     path: 'contact',
     loadChildren: './modules/contact/contact.module#ContactModule'
+  },
+  {
+    path: 'gallery',
+    loadChildren: './modules/gallery/gallery.module#GalleryModule'
   }
 ];
 @NgModule({
