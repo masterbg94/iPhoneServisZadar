@@ -24,6 +24,7 @@
 
     .toolbar-logo {
       display: flex;
+      flex: 1;
       align-items: center;
 
       img {
@@ -34,6 +35,8 @@
 
     .toolbar-menu {
       display: flex;
+      flex: 2;
+      justify-content: space-between;
       align-items: center;
 
       p {

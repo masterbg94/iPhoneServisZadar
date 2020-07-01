@@ -1,6 +1,8 @@
 @import "../../../styles/pallete";
 
-#acc-container {
+.accessorizes-container#acc-container {
+  background: $app-bg-dark;
+
   button {
     width: 200px;
   }

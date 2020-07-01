@@ -1,9 +1,10 @@
 @import "../../../styles/pallete";
 
 .whyus-container {
+  background: $app-bg-dark;
   display: flex;
   justify-content: center;
-  background: $app-bg-light2;
+  //background: $app-bg-light2;
 
   .whyus-content {
     max-width: 1024px;
@@ -18,7 +19,7 @@
     .choose-heading {
       font-weight: bold;
       margin-bottom: 45px;
-      color: $app-bg-dark;
+      color: $app-bg-light;
     }
 
     .choose-us-details {
@@ -51,12 +52,12 @@
           display: flex;
           align-items: center;
           font-weight: bold;
-          color: $app-bg-dark;
+          color: $app-bg-light;
         }
 
         .choose-us-text {
           text-align: center;
-          color: $app-bg-dark;
+          color: $app-bg-light;
         }
       }
     }

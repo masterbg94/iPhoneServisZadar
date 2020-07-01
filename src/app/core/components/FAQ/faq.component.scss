@@ -1,10 +1,16 @@
+@import "../../../styles/pallete";
+
 .faq-container {
   display: flex;
-  margin: 70px 0;
+  padding: 70px 0;
   position: relative;
   z-index: 3;
   flex-direction: column;
   align-items: center;
+  background: $app-bg-dark2;
+  .faq-heading,.faq-subheading {
+    color: $app-bg-light;
+  }
 
   .faq-content {
     max-width: 1024px;
