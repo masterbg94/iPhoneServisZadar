@@ -3,10 +3,12 @@
 button {
   width: 200px;
 }
-
-#guarante-text {
-  p {
-    color: $app-bg-light2;
+guarante-container {
+  background: $app-bg-dark;
+  #guarante-text {
+    p {
+      color: $app-bg-light2;
+    }
   }
 }
 
