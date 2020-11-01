@@ -85,6 +85,15 @@
         <img src="../../../../assets/img/steve-jobs-logo.png" alt="" height="30px">
         <p>iPhone Servis Zadar</p>
       </div>
+      <div>
+        <div class="d-flex">
+          <p style="color:white;margin-left: 20px"
+             *ngFor="let lang of translate.getLangs()"
+             (click)="translate.use(lang)"
+          >{{lang}}</p>
+        </div>
+        <p style="color:white">{{ 'HOME.WELCOME' | translate }}</p>
+      </div>
     </mat-toolbar>
 
     <router-outlet></router-outlet>
