@@ -4,12 +4,32 @@
       <img src="./assets/img/steve-jobs-logo.png" alt="" class="img-fluid">
       <p>iPhone Servis Zadar</p>
     </div>
-    <div class="toolbar-menu">
-      <p routerLink="/">Pocetna</p>
-      <p routerLink="/about">O nama</p>
-      <p routerLink="/services">Usluge</p>
-      <p routerLink="/gallery" >Galerija</p>
-      <p routerLink="/contact">Kontakt</p>
+    <div class="d-flex flex-row toolbar-right">
+      <div class="toolbar-menu">
+        <p routerLink="/">{{"MAINMENU.home"|translate}}</p>
+        <p routerLink="/about">{{"MAINMENU.about"|translate}}</p>
+        <p routerLink="/services">{{"MAINMENU.services"|translate}}</p>
+        <p routerLink="/gallery" >{{"MAINMENU.gallery"|translate}}</p>
+        <p routerLink="/contact">{{"MAINMENU.contact"|translate}}</p>
+      </div>
+
+
+      <div class="toolbar-lang position-relative h-100 d-flex align-items-center">
+        <div class="curent-lang d-flex " (click)="toggleLanguage()">
+          <img [src]="currentLang.img" alt="">
+          <p>{{currentLang.nameShort}}</p>
+        </div>
+
+        <div class="lang-dropdown position-absolute" *ngIf="langDroped">
+          <div class="lang-item d-flex" *ngFor="let l of languages" (click)="setLang(l)">
+            <img [src]="l.img" alt="">
+            <p>{{l.name}}</p>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   </div>
 </div>

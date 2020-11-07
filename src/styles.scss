@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/scss/bootstrap";
 @import "./app/styles/pallete";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 
 html, body {
   height: 100%;
@@ -12,9 +14,11 @@ html, body {
 * {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  //font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   outline: none !important;
-
+  cursor: default;
+  user-select: none;
 }
 
 p {

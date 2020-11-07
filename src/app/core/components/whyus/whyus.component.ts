@@ -8,19 +8,19 @@ import {Component} from '@angular/core';
 export class WhyusComponent {
   whyUs = [
     {
-      heading: 'Besplatna analiza',
+      heading: 'freeAnalyze',
       icon: './assets/img/illustrations/analyze1.svg'
     },
     {
-      heading: 'Brzi servis',
+      heading: 'fastService',
       icon: './assets/img/illustrations/time2.svg'
     },
     {
-      heading: 'Besplatna dostava / preuzimanje',
+      heading: 'freeDelivery',
       icon: './assets/img/illustrations/delivery.svg'
     },
     {
-      heading: 'Otkup / Prodaja',
+      heading: 'buy/sell',
       icon: './assets/img/illustrations/otkup.svg'
     }
   ];

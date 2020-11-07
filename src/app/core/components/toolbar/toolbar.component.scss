@@ -33,17 +33,53 @@
 
     }
 
-    .toolbar-menu {
-      display: flex;
-      flex: 2;
-      justify-content: space-between;
+    .toolbar-right {
       align-items: center;
+      .toolbar-menu {
+        display: flex;
+        flex: 2;
+        //justify-content: space-between;
+        justify-content: flex-end;
+        align-items: center;
 
-      p {
-        margin-left: 50px;
-        font-weight: normal;
-        outline: none;
+        p {
+          font-size: 14px;
+          margin-left: 20px;
+          font-weight: normal;
+          outline: none;
+          @include hoverDetail;
+          white-space: nowrap;
+        }
+      }
+      .toolbar-lang{
+        .curent-lang{
+          margin-left: 20px;
+          img{
+            height: 20px;
+          }
+          p{
+            color: white;
+            margin-left: 0;
+          }
+        }
+        .lang-dropdown{
+          z-index: 3;
+          background: white;
+          top: 50px;
+          right: 0;
+          .lang-item{
+            padding: 6px 12px;
+            img{
+              height: 20px;
+            }
+            p{
+              color: black;
+              margin: 0;
+            }
+          }
+        }
       }
     }
+
   }
 }

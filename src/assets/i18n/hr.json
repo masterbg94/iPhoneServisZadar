@@ -1,6 +1,59 @@
 {
-  "HOME": {
-    "WELCOME": "Zdravo, Dobro dosli",
-    "WELCOME2": "Dobrodosli"
+  "MAINMENU": {
+    "home": "Pocetna",
+    "about": "O nama",
+    "services": "Usluge",
+    "gallery": "Galerija",
+    "contact": "Kontakt"
+  },
+  "ABOUTUS": {
+    "aboutUs":"O nama"
+  },
+  "WHYCHOOSEUS": {
+    "freeAnalyze": "Besplatna analiza",
+    "freeAnalyzeTxt": "Free analyticsTxt",
+    "fastService": "Brzi servis",
+    "fastServiceTxt": "Fast serviceTxt",
+    "freeDelivery": "Besplatna dostava/preuzimanje",
+    "freeDeliveryTxt": "Free deliveryTxt",
+    "buy/sell": "Otkup / Prodaja",
+    "buy/sellTxt": "Buy / SellTxt"
+  },
+  "ACCESSORIZES": {
+    "accessorizes": "Oprema",
+    "accessorizesTxt": "AccessorizesTxt"
+  },
+  "WARRANTY": {
+    "warranty": "Garancija",
+    "warrantyTxt": "WarrantyTxt"
+  },
+  "WHYDOPREFER": "Zasto preferiramo garanciju",
+  "HOWCANHELP": {
+    "howCanHelp": "Kako Vam mozemo pomoci?",
+    "mobileRepair": "Resite Se Stresa Kod Nas U Servisu",
+    "waterDamage": "Steta Izazvana Vodom",
+    "waterDamageTxt": "Često možemo popraviti oštećenja od vode iz telefona, samo u retkim slučajevima kada to ne možemo popraviti.",
+    "poorBattery": "Lose Trajanje Baterije",
+    "poorBatteryTxt": "Poor Battery Life",
+    "crackedScreen": "Slomljen Ekran",
+    "crackedScreenTxt": "Cracked Screens",
+    "bentChasis": "Kvarovi Kucista",
+    "bentChasisTxt": "Bent Chasis",
+    "brokenSpeaker": "Crko Spiker",
+    "brokenSpeakerTxt": "Broken Speakers"
+  },
+  "FOOTER": {
+    "footerCompanyTxt": "Curtis James Jackson III (rođen 6. jula 1975), poznatiji pod umetničkim imenom 50 Cent, američki je reper",
+    "quickLinks": {
+      "faq": "Cesta pitanja",
+      "terms": "Uslovi koriscenja",
+      "privacy": "Politika privatnosti"
+    },
+    "legalStuff": {
+      "about": "O nama",
+      "services": "Servis",
+      "gallery": "Galerija",
+      "contact": "Kontakt"
+    }
   }
 }

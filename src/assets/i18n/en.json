@@ -1,6 +1,61 @@
 {
-  "HOME": {
-    "WELCOME": "Hello wellcome",
-    "WELCOME2": "Welcome"
+  "MAINMENU": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "ABOUTUS": {
+    "aboutUs":"About us"
+  },
+  "WHYCHOOSEUS": {
+    "freeAnalyze": "Free analytics",
+    "freeAnalyzeTxt": "Free analyticsTxt",
+    "fastService": "Fast service",
+    "fastServiceTxt": "Fast serviceTxt",
+    "freeDelivery": "Free delivery",
+    "freeDeliveryTxt": "Free deliveryTxt",
+    "buy/sell": "Buy / Sell",
+    "buy/sellTxt": "Buy / SellTxt"
+  },
+  "ACCESSORIZES": {
+    "accessorizes": "Accessorizes",
+    "accessorizesTxt": "AccessorizesTxt"
+  },
+  "WARRANTY": {
+    "warranty": "Warranty",
+    "warrantyTxt": "WarrantyTxt"
+  },
+  "WHYDOPREFER": "Why do we prefer warranty",
+  "HOWCANHELP": {
+    "howCanHelp": "How we can help you?",
+    "mobileRepair": "We Make Mobile Repair Stress Free",
+    "waterDamage": "Water Ingress Damage",
+    "waterDamageTxt": "We can often repair water damage from inside the phone, only rare cases where we cannot fix this.",
+    "poorBattery": "Poor Battery Life",
+    "poorBatteryTxt": "Poor Battery Life",
+    "crackedScreen": "Cracked Screens",
+    "crackedScreenTxt": "Cracked Screens",
+    "bentChasis": "Bent Chasis",
+    "bentChasisTxt": "Bent Chasis",
+    "brokenSpeaker": "Broken Speakers",
+    "brokenSpeakerTxt": "Broken Speakers"
+  },
+  "FOOTER": {
+    "footerCompanyTxt": "Curtis James Jackson III (born July 6, 1975), better known by his stage name 50 Cent, is an American rapper",
+    "quickLinks": {
+      "quickLinks": "Quick links",
+      "faq": "FAQ",
+      "terms": "Terms&Conditions",
+      "privacy": "Privacy policy"
+    },
+    "legalStuff": {
+      "legalStuff": "Legal stuff",
+      "about": "About",
+      "services": "Services",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    }
   }
 }

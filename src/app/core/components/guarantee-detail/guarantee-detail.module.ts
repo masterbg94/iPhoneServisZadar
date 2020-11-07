@@ -1,9 +1,12 @@
 import {NgModule} from '@angular/core';
 
 import {GuaranteeDetailComponent} from './guarantee-detail.component';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
-  imports: [],
+  imports: [
+    TranslateModule
+  ],
   exports: [
     GuaranteeDetailComponent
   ],

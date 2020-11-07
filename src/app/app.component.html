@@ -5,7 +5,6 @@
 </div>
 
 <mat-sidenav-container class="sidenav-container" *ngIf="innerWidth<1024">
-
   <mat-sidenav
       #drawer class="sidenav" fixedInViewport="true"
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
@@ -15,6 +14,23 @@
     <mat-toolbar>
       <img src="../../../../assets/img/steve-jobs-logo.png" alt="" height="20px">
       <p>iPhone Servis Zadar</p>
+
+<!--  start lang   -->
+      <div class="d-flex justify-content-end" style="max-width: 55px;width: 100%" (click)="toggleDropDownLanguages()">
+        <div class="d-flex position-relative align-items-center">
+          <img [src]="currentLang.img" alt="" style="height: 20px">
+          <p>{{currentLang.nameShort}}</p>
+        </div>
+
+        <div class="lang-dropdown position-absolute d-flex flex-column" *ngIf="langDroped">
+          <div class="d-flex lang-item" *ngFor="let l of languages" (click)="setLanguage(l)">
+            <img [src]="l.img" alt="" style="height: 20px">
+            <p>{{l.name}}</p>
+          </div>
+        </div>
+      </div>
+<!--   end lang   -->
+
     </mat-toolbar>
 
     <mat-nav-list (click)="drawer.toggle()">
@@ -23,7 +39,7 @@
         [routerLinkActiveOptions]="{exact:true}"
         routerLink="/"
       >
-        <a matLine>Home</a>
+        <a matLine>{{"MAINMENU.home" | translate}}</a>
         <button mat-icon-button>
           <mat-icon>home</mat-icon>
         </button>
@@ -32,7 +48,7 @@
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{exact:true}"
         routerLink="/about">
-        <a matLine>About</a>
+        <a matLine>{{"MAINMENU.about" | translate}}</a>
         <button mat-icon-button>
           <mat-icon>phone_iphone</mat-icon>
         </button>
@@ -41,7 +57,7 @@
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{exact:true}"
         routerLink="/services">
-        <a matLine>Services</a>
+        <a matLine>{{"MAINMENU.services" | translate}}</a>
         <button mat-icon-button>
           <mat-icon>phone_iphone</mat-icon>
         </button>
@@ -50,7 +66,7 @@
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{exact:true}"
         routerLink="/gallery">
-        <a matLine>Gallery</a>
+        <a matLine>{{"MAINMENU.gallery" | translate}}</a>
         <button mat-icon-button>
           <mat-icon>phone_iphone</mat-icon>
         </button>
@@ -59,7 +75,7 @@
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{exact:true}"
         routerLink="/contact">
-        <a matLine>Contact</a>
+        <a matLine>{{"MAINMENU.contact" | translate}}</a>
         <button mat-icon-button>
           <mat-icon>location_on</mat-icon>
         </button>
@@ -67,10 +83,7 @@
     </mat-nav-list>
 
   </mat-sidenav>
-
-
   <mat-sidenav-content>
-
     <mat-toolbar class="toolbar-main">
       <button
         type="button"
@@ -85,21 +98,9 @@
         <img src="../../../../assets/img/steve-jobs-logo.png" alt="" height="30px">
         <p>iPhone Servis Zadar</p>
       </div>
-      <div>
-        <div class="d-flex">
-          <p style="color:white;margin-left: 20px"
-             *ngFor="let lang of translate.getLangs()"
-             (click)="translate.use(lang)"
-          >{{lang}}</p>
-        </div>
-        <p style="color:white">{{ 'HOME.WELCOME' | translate }}</p>
-      </div>
     </mat-toolbar>
-
     <router-outlet></router-outlet>
     <app-footer-component></app-footer-component>
-
   </mat-sidenav-content>
-
 </mat-sidenav-container>
 
