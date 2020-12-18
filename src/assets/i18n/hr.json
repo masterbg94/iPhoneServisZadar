@@ -7,43 +7,46 @@
     "contact": "Kontakt"
   },
   "ABOUTUS": {
-    "aboutUs":"O nama"
+    "aboutUs":"O nama",
+    "aboutUs-short": "Ukoliko je Vaš uređaj prestao raditi, pao u vodu ili sa visine te su Vam u nekom od servisa rekli da je popravak neisplativ, obratite nam se sa povjerenjem.\nSpecijalizirani smo za otklanjanje svih hardverskih problema."
   },
   "WHYCHOOSEUS": {
+    "whychooseus": "Zašto izabrati nas?",
     "freeAnalyze": "Besplatna analiza",
-    "freeAnalyzeTxt": "Free analyticsTxt",
+    "freeAnalyzeTxt": "Potpuno besplatno pregledati ćemo Vaš uređaj prema 5 glavnih točaka koje se provjeravaju na tehničkom pregledu,dati dijagnozu te procjenu koliko bi Vas stajao popravak. Dobit ćete primjerak radnog naloga sa specifikacijom pregledanih stavki i njihove ispravnosti.",
     "fastService": "Brzi servis",
-    "fastServiceTxt": "Fast serviceTxt",
+    "fastServiceTxt": "Brzi servis je ono na što stavljamo naglasak i trudimo se biti još bolji svakim danom. Brza izmjena dijelova, ekrana, baterija, tipki, kućišta, te ostalih djelova uređaja…Brzo, efikasno i kvalitetno!",
     "freeDelivery": "Besplatna dostava/preuzimanje",
-    "freeDeliveryTxt": "Free deliveryTxt",
+    "freeDeliveryTxt": "iPhone Servis Zadar za korisnike koji ne mogu osobno doći u poslovnicu nudi i preuzimanje i dostavu uređaja na području Zadra potpuno besplatno.",
     "buy/sell": "Otkup / Prodaja",
-    "buy/sellTxt": "Buy / SellTxt"
+    "buy/sellTxt": "Nudimo otkup i prodaju,novih i rabljenih uređaja svih renomiranih svjetskih proizvođača – Apple, Samsung, Huawei.\nOdaberite plaćanje kreditnim i debitnim karticama ili plaćanje pouzećem."
   },
   "ACCESSORIZES": {
     "accessorizes": "Oprema",
-    "accessorizesTxt": "AccessorizesTxt"
+    "accessorizesTxt": "Pronađite orginalnu opremu za svoj uređaj. Raznolik asortiman i dobre cijene, posjetite nas! Nudimo veliki izvor dodatne opreme za Apple,Samsung i Huawei uređaje u našoj poslovnici."
   },
   "WARRANTY": {
     "warranty": "Garancija",
-    "warrantyTxt": "WarrantyTxt"
+    "warrantyTxt": "6 mjeseci jamstva na sve ugrađene dijelove i uslugu."
   },
-  "WHYDOPREFER": "Zasto preferiramo garanciju",
+  "WHYDOPREFER": "6 mjeseci jamstva na sve ugrađene dijelove i uslugu.",
   "HOWCANHELP": {
     "howCanHelp": "Kako Vam mozemo pomoci?",
+    "howCanHelp2": "Nase usluge",
     "mobileRepair": "Resite Se Stresa Kod Nas U Servisu",
-    "waterDamage": "Steta Izazvana Vodom",
-    "waterDamageTxt": "Često možemo popraviti oštećenja od vode iz telefona, samo u retkim slučajevima kada to ne možemo popraviti.",
-    "poorBattery": "Lose Trajanje Baterije",
-    "poorBatteryTxt": "Poor Battery Life",
-    "crackedScreen": "Slomljen Ekran",
-    "crackedScreenTxt": "Cracked Screens",
-    "bentChasis": "Kvarovi Kucista",
-    "bentChasisTxt": "Bent Chasis",
-    "brokenSpeaker": "Crko Spiker",
-    "brokenSpeakerTxt": "Broken Speakers"
+    "waterDamage": "ŠTETA IZAZVANA VODOM",
+    "waterDamageTxt": "Često možemo popraviti oštećenja od vode ili mora na vašem uređaju. ",
+    "poorBattery": "LOŠE TRAJANJE BATERIJE",
+    "poorBatteryTxt": "Sve punjive baterije potrošni su materijal i imaju ograničen vijek trajanja, a s vremenom im se smanjuju kapacitet i performanse pa ih je potrebno zamijeniti.",
+    "crackedScreen": "SLOMLJEN EKRAN",
+    "crackedScreenTxt": "Najčešći kvar se odnosi na razbijeno staklo, pri padu mobilnog telefona. No, takvi kvarovi se danas relativno jednostavno rješavaju u našem servisu.",
+    "bentChasis": "RAZBIJENA KUĆIŠTA",
+    "bentChasisTxt": "Nezgoda,oštećenje na poleđini Vašeg uređaja ili imate problema sa mutnom i ne čistom slikom prilikom slikanja i snimanja video sadržaja? Promijenit ćemo Vam zadnje kućište na Vašem uređaju. Servis zadnjeg kučišta na uređaju podrazumijeva izmjenu zadnjeg kućišta sa novim kućištem, te nove leće za kameru i LED osvjetljenje, te tipkama.",
+    "brokenSpeaker": "ZVUČNIK/MIKROFON",
+    "brokenSpeakerTxt": "Sugovornika loše čujete ili Vas loše čuju,dogodila se nezgoda i prolili ste tekućinu po Vašem uređaju? Promjenom ušnog zvučnika ili mikrofona ćete riješiti problem lošeg prijema ili slanja zvuka,bio to slab ili nikakav prijem. Servis ušnog zvučnika ili mikrofona na uređaju traje u prosjeku 20 minuta."
   },
   "FOOTER": {
-    "footerCompanyTxt": "Curtis James Jackson III (rođen 6. jula 1975), poznatiji pod umetničkim imenom 50 Cent, američki je reper",
+    "footerCompanyTxt": "Since 2010",
     "quickLinks": {
       "faq": "Cesta pitanja",
       "terms": "Uslovi koriscenja",

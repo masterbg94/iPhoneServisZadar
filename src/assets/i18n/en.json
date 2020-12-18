@@ -7,43 +7,46 @@
     "contact": "Contact"
   },
   "ABOUTUS": {
-    "aboutUs":"About us"
+    "aboutUs":"About us",
+    "aboutUs-short": "If your device has stopped working, fallen into the water or from a height and you have been told by one of the services that the repair is unprofitable, contact us with confidence.\nWe specialize in troubleshooting all hardware issues."
   },
   "WHYCHOOSEUS": {
+    "whychooseus": "Why choose us?",
     "freeAnalyze": "Free analytics",
-    "freeAnalyzeTxt": "Free analyticsTxt",
+    "freeAnalyzeTxt": "We will inspect your device completely free of charge according to the 5 main points that are checked at the technical inspection, give a diagnosis and an estimate of how much the repair would cost you. You will receive a copy of the work order with a specification of the items reviewed and their correctness.",
     "fastService": "Fast service",
-    "fastServiceTxt": "Fast serviceTxt",
+    "fastServiceTxt": "Fast service is what we emphasize and we try to be even better every day. Quick replacement of parts, screens, batteries, keys, housing, and other parts of the device… Fast, efficient and high quality!",
     "freeDelivery": "Free delivery",
-    "freeDeliveryTxt": "Free deliveryTxt",
+    "freeDeliveryTxt": "iPhone Service Zadar for users who cannot come to the branch in person also offers download and delivery of the device in the area of Zadar completely free of charge.",
     "buy/sell": "Buy / Sell",
-    "buy/sellTxt": "Buy / SellTxt"
+    "buy/sellTxt": "We offer purchase and sale of new and used devices from all renowned world manufacturers - Apple, Samsung, Huawei.\nChoose credit and debit card payments or cash on delivery."
   },
   "ACCESSORIZES": {
     "accessorizes": "Accessorizes",
-    "accessorizesTxt": "AccessorizesTxt"
+    "accessorizesTxt": "Find original equipment for your device. Diverse assortment and good prices, visit us! We offer a large source of accessories for Apple, Samsung and Huawei devices in our branch."
   },
   "WARRANTY": {
     "warranty": "Warranty",
-    "warrantyTxt": "WarrantyTxt"
+    "warrantyTxt": "6 months warranty on all installed parts and service."
   },
-  "WHYDOPREFER": "Why do we prefer warranty",
+  "WHYDOPREFER": "6 months warranty on all installed parts and service.",
   "HOWCANHELP": {
     "howCanHelp": "How we can help you?",
+    "howCanHelp2": "Our services",
     "mobileRepair": "We Make Mobile Repair Stress Free",
-    "waterDamage": "Water Ingress Damage",
-    "waterDamageTxt": "We can often repair water damage from inside the phone, only rare cases where we cannot fix this.",
-    "poorBattery": "Poor Battery Life",
-    "poorBatteryTxt": "Poor Battery Life",
-    "crackedScreen": "Cracked Screens",
-    "crackedScreenTxt": "Cracked Screens",
-    "bentChasis": "Bent Chasis",
-    "bentChasisTxt": "Bent Chasis",
-    "brokenSpeaker": "Broken Speakers",
-    "brokenSpeakerTxt": "Broken Speakers"
+    "waterDamage": "WATER CAUSE",
+    "waterDamageTxt": "We can often repair water or sea damage to your device.",
+    "poorBattery": "BAD BATTERY DURATION",
+    "poorBatteryTxt": "All rechargeable batteries are consumables and have a limited lifespan, and their capacity and performance decrease over time, so they need to be replaced.",
+    "crackedScreen": "BROKEN SCREEN",
+    "crackedScreenTxt": "The most common fault is broken glass when a mobile phone falls. But such failures are relatively easy to solve in our service today.",
+    "bentChasis": "BROKEN HOUSINGS",
+    "bentChasisTxt": "Accident, damage to the back of your device, or problems with blurry and unclear images when shooting and recording video content?  We will change the back cover on your device. The service of the rear housing on the device includes the replacement of the rear housing with a new housing, and new lenses for the camera and LED lighting, and buttons.",
+    "brokenSpeaker": "SPEAKER / MICROPHONE",
+    "brokenSpeakerTxt": "Can you hear your interlocutor badly or do you hear badly, an accident has occurred and you have spilled liquid on your device? By changing the ear speaker or microphone, you will solve the problem of poor reception or sending of sound, be it poor or no reception. The service of the earpiece or microphone on the device takes an average of 20 minutes."
   },
   "FOOTER": {
-    "footerCompanyTxt": "Curtis James Jackson III (born July 6, 1975), better known by his stage name 50 Cent, is an American rapper",
+    "footerCompanyTxt": "Since 2010",
     "quickLinks": {
       "quickLinks": "Quick links",
       "faq": "FAQ",

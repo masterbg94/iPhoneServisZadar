@@ -8,20 +8,24 @@ import {Component} from '@angular/core';
 export class WhyusComponent {
   whyUs = [
     {
-      heading: 'freeAnalyze',
-      icon: './assets/img/illustrations/analyze1.svg'
+      heading: 'WHYCHOOSEUS.freeAnalyze',
+      icon: './assets/img/illustrations/analyze1.svg',
+      description: 'WHYCHOOSEUS.freeAnalyzeTxt'
     },
     {
-      heading: 'fastService',
-      icon: './assets/img/illustrations/time2.svg'
+      heading: 'WHYCHOOSEUS.fastService',
+      icon: './assets/img/illustrations/time2.svg',
+      description: 'WHYCHOOSEUS.fastServiceTxt'
     },
     {
-      heading: 'freeDelivery',
-      icon: './assets/img/illustrations/delivery.svg'
+      heading: 'WHYCHOOSEUS.freeDelivery',
+      icon: './assets/img/illustrations/delivery.svg',
+      description: 'WHYCHOOSEUS.freeDeliveryTxt'
     },
     {
-      heading: 'buy/sell',
-      icon: './assets/img/illustrations/otkup.svg'
+      heading: 'WHYCHOOSEUS.buy/sell',
+      icon: './assets/img/illustrations/otkup.svg',
+      description: 'WHYCHOOSEUS.buy/sellTxt'
     }
   ];
 }
