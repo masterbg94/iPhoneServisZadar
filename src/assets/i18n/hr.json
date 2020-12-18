@@ -58,5 +58,17 @@
       "gallery": "Galerija",
       "contact": "Kontakt"
     }
+  },
+  "PLACEHODER-MAIL": {
+    "name": "Unesite ime",
+    "email": "Unesite email",
+    "subject": "Unesite naslov poruke",
+    "message": "Unesite poruku",
+    "required": "Morate ispravno popuniti polje"
+  },
+  "WORKING": {
+    "WORKINGHRS": "Radno Vrijeme",
+    "MON-FRI": "PON - PET",
+    "SATURDAY": "Subotom"
   }
 }

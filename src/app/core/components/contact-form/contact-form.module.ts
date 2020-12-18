@@ -4,12 +4,14 @@ import {ReactiveFormsModule} from '@angular/forms';
 
 import {ContactFormComponent} from './contact-form.component';
 import {CustomMaterialModule} from '../../../custom.material.module';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CustomMaterialModule,
     ReactiveFormsModule,
-    CommonModule
+    CommonModule,
+    TranslateModule
   ],
   exports: [
     ContactFormComponent

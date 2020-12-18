@@ -7,6 +7,7 @@ import {ContactFormModule} from '../../core/components/contact-form/contact-form
 import {HeaderDetailsModule} from '../../core/components/header-details/header-details.module';
 import {FaqModule} from '../../core/components/FAQ/faq.module';
 import {CustomMaterialModule} from '../../custom.material.module';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import {CustomMaterialModule} from '../../custom.material.module';
     ContactFormModule,
     HeaderDetailsModule,
     FaqModule,
-    CustomMaterialModule
+    CustomMaterialModule,
+    TranslateModule
   ],
   declarations: [
     ContactComponent

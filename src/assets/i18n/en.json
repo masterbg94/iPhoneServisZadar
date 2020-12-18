@@ -4,7 +4,7 @@
     "about": "About",
     "services": "Services",
     "gallery": "Gallery",
-    "contact": "Contact"
+    "contact": "Contact us"
   },
   "ABOUTUS": {
     "aboutUs":"About us",
@@ -60,5 +60,17 @@
       "gallery": "Gallery",
       "contact": "Contact"
     }
+  },
+  "PLACEHODER-MAIL": {
+    "name": "Type your name",
+    "email": "Type your mail",
+    "subject": "Type message subject",
+    "message": "Type message",
+    "required": "Please fill this field right"
+  },
+  "WORKING": {
+    "WORKINGHRS": "Working hours",
+    "MON-FRI": "MON - FRI",
+    "SATURDAY": "Saturday"
   }
 }

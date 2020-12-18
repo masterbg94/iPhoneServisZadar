@@ -1,6 +1,6 @@
 <div class="contact-header-container">
   <div class="contact-header-content">
-    <p class="font-heading"><b>Contact us</b></p>
+    <p class="font-heading"><b>{{"MAINMENU.contact" | translate}}</b></p>
     <img src="../../../../assets/img/mapamarker.png" alt="" class="img-fluid">
   </div>
 </div>
@@ -9,8 +9,12 @@
     <div class="info-details">
       <div class="info-details-item">
         <mat-icon>place</mat-icon>
-        <p>Ul. Antuna Dobronića 3<br>23000, Zadar<br>Hrtvatska<br>
-        </p>
+<!--        <p>Ul. Antuna Dobronića 3<br>23000, Zadar<br>Hrtvatska<br>-->
+<!--        </p>-->
+        <div class="d-flex flex-column">
+          <p class="m-0">Grgura Mrganića 4</p>
+          <p class="m-0">23000 Zadar</p>
+        </div>
       </div>
       <div class="info-details-item">
         <mat-icon>mail</mat-icon>
@@ -20,6 +24,10 @@
         <mat-icon>call</mat-icon>
         <a href="tel:+385098658442">+385 098 658 442</a>
       </div>
+      <div class="info-details-item">
+        <p class="m-0">OIB: 59367467399</p>
+      </div>
+
     </div>
     <div class="mail-form">
       <app-contact-form-component></app-contact-form-component>

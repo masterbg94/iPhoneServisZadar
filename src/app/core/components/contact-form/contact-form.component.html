@@ -3,32 +3,60 @@
     <form [formGroup]="contactForm">
       <div class="two-items">
         <mat-form-field appearance="legacy">
-          <mat-label>Unesite vase ime</mat-label>
-          <input matInput placeholder="Vase ime" autocomplete="off" formControlName="name">
-          <mat-error>Upisati Vase ime</mat-error>
+          <mat-label>{{ "PLACEHODER-MAIL.name" | translate }}</mat-label>
+          <input
+            matInput
+            placeholder="Vase ime"
+            autocomplete="off"
+            formControlName="name"
+          />
+          <mat-error>{{ "PLACEHODER-MAIL.required" | translate }}</mat-error>
         </mat-form-field>
         <mat-form-field appearance="legacy">
-          <mat-label>Unesite vas email</mat-label>
-          <input matInput placeholder="Email" autocomplete="off" formControlName="email">
-          <mat-error>Upisati Vas e-mail</mat-error>
+          <mat-label>{{ "PLACEHODER-MAIL.email" | translate }}</mat-label>
+          <input
+            matInput
+            placeholder="Email"
+            autocomplete="off"
+            formControlName="email"
+          />
+          <mat-error>{{ "PLACEHODER-MAIL.required" | translate }}</mat-error>
         </mat-form-field>
       </div>
       <div class="subject">
         <mat-form-field appearance="legacy">
-          <mat-label>Unesite naslov poruke</mat-label>
-          <input matInput placeholder="Naslov" autocomplete="off" formControlName="subject">
-          <mat-error>Upisati naslov</mat-error>
+          <mat-label>{{"PLACEHODER-MAIL.subject" | translate}}</mat-label>
+          <input
+            matInput
+            placeholder="Naslov"
+            autocomplete="off"
+            formControlName="subject"
+          />
+          <mat-error>{{ "PLACEHODER-MAIL.required" | translate }}</mat-error>
         </mat-form-field>
 
         <mat-form-field>
-          <textarea matInput #message maxlength="500" placeholder="Unesite vasu poruku" [rows]="3" mat-autosize="false"
-                    formControlName="message"></textarea>
-          <mat-hint align="end">{{message.value.length}} / 500</mat-hint>
-          <mat-error>Upisati sadrzaj poruke</mat-error>
+          <mat-label>{{"PLACEHODER-MAIL.message" | translate}}</mat-label>
+          <textarea
+            matInput
+            #message
+            maxlength="500"
+            placeholder="Unesite vasu poruku"
+            [rows]="3"
+            mat-autosize="false"
+            formControlName="message"
+          ></textarea>
+          <mat-hint align="end">{{ message.value.length }} / 500</mat-hint>
+          <mat-error>{{ "PLACEHODER-MAIL.required" | translate }}</mat-error>
         </mat-form-field>
       </div>
-      <button class="btn-transparent-dark" (click)="sendMail()" [disabled]="!contactForm.valid">Posalji</button>
+      <button
+        class="btn-transparent-dark"
+        (click)="sendMail()"
+        [disabled]="!contactForm.valid"
+      >
+        Posalji
+      </button>
     </form>
   </div>
-
 </div>

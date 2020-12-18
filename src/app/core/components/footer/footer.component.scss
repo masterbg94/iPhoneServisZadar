@@ -69,6 +69,16 @@
           margin-left: 50px;
         }
       }
+
+      .footer-address,
+      .footer-working-hours {
+        p {
+          color: white;
+        }
+      }
+      .footer-working-hours{
+        margin-left: 50px;
+      }
     }
   }
 }
@@ -106,8 +116,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer-menu {
-    margin-top: 15px;
+  .footer-content{
+    justify-content: center!important;
+    .footer-menu {
+      margin-top: 15px;
+      justify-content: center;
+    }
   }
 }
 
@@ -120,4 +134,3 @@
     padding-right: 10px !important;
   }
 }
-
