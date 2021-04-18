@@ -24,13 +24,23 @@
 
         img {
           max-height: 40px;
+          margin-left: 12px;
         }
 
-        p {
-          font-size: 20px;
-          margin-left: 10px;
-          font-weight: bold;
-          line-height: 22px;
+        .d-flex.flex-column {
+          p:first-of-type {
+            font-size: 20px;
+            margin-left: 10px;
+            font-weight: bold;
+            line-height: 22px;
+          }
+
+          p:nth-of-type(2) {
+            text-align: right;
+            font-size: 10px;
+            font-weight: normal;
+            line-height: 12px;
+          }
         }
       }
 
@@ -76,7 +86,8 @@
           color: white;
         }
       }
-      .footer-working-hours{
+
+      .footer-working-hours {
         margin-left: 50px;
       }
     }
@@ -116,8 +127,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .footer-content{
-    justify-content: center!important;
+  .footer-content {
+    justify-content: center !important;
+
     .footer-menu {
       margin-top: 15px;
       justify-content: center;

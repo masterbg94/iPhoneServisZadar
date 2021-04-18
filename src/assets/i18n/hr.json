@@ -10,6 +10,9 @@
     "aboutUs":"O nama",
     "aboutUs-short": "Ukoliko je Vaš uređaj prestao raditi, pao u vodu ili sa visine te su Vam u nekom od servisa rekli da je popravak neisplativ, obratite nam se sa povjerenjem.\nSpecijalizirani smo za otklanjanje svih hardverskih problema."
   },
+  "SERVICES": {
+    "servicesText1": "100% mobilna tvrtka za apple,samsung i huawei. Sa više od 10 godina svakodnevnog iskustva susrećemo se sa raznim  hardwerskim problemima , koje riješavamo u najkraćem mogućem roku. Posebno smo specijalizirani za sve apple uredjaje  kao što su ipad,macbook,imac te apple watch"
+  },
   "WHYCHOOSEUS": {
     "whychooseus": "Zašto izabrati nas?",
     "freeAnalyze": "Besplatna analiza",

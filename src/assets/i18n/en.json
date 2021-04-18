@@ -10,6 +10,9 @@
     "aboutUs":"About us",
     "aboutUs-short": "If your device has stopped working, fallen into the water or from a height and you have been told by one of the services that the repair is unprofitable, contact us with confidence.\nWe specialize in troubleshooting all hardware issues."
   },
+  "SERVICES": {
+    "servicesText1": "100% mobile company for apple, samsung and huawei. With more than 10 years of everyday experience, we encounter various hardware problems, which we solve in the shortest possible time. We especially specialize in all apple devices such as iPad, macbook, imac and apple watch"
+  },
   "WHYCHOOSEUS": {
     "whychooseus": "Why choose us?",
     "freeAnalyze": "Free analytics",

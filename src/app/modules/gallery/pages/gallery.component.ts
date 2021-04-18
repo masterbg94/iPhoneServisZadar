@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-    templateUrl:'./gallery.component.html',
+    templateUrl: './gallery.component.html',
     styleUrls:['./gallery.component.scss']
 })
 export class GalleryComponent{

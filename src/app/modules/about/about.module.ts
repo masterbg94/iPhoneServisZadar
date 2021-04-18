@@ -10,6 +10,7 @@ import {GuaranteModule} from '../../core/components/guarantee/guarante.module';
 import {GuaranteeDetailModule} from '../../core/components/guarantee-detail/guarantee-detail.module';
 import {ServicesDetailModule} from '../../core/components/services-detail/services-detail.module';
 import {FaqModule} from '../../core/components/FAQ/faq.module';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import {FaqModule} from '../../core/components/FAQ/faq.module';
     GuaranteModule,
     GuaranteeDetailModule,
     ServicesDetailModule,
-    FaqModule
+    FaqModule,
+    TranslateModule
   ],
   exports: [],
   declarations: [AboutComponent]

@@ -1,23 +1,34 @@
 @import "../../../styles/pallete";
 
-.about-header{
-  img{
+.about-header {
+  img {
     max-height: 350px;
     width: 100%;
     object-fit: cover;
   }
-  .about-header-text{
+
+  .about-header-text {
     text-align: center;
-    p{
+
+    p {
       color: white;
     }
   }
 }
 
+.about-text-container {
+  background-color: rgba(13, 13, 13, 0.95);
+
+  h3 {
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .about-header{
-    img{
-      max-height: 220px!important;
+  .about-header {
+    img {
+      max-height: 220px !important;
       width: 100%;
       object-fit: cover;
     }
@@ -38,6 +49,28 @@
       button {
         align-self: flex-end;
       }
+    }
+  }
+  .about-text-container{
+    h3{
+      padding: 40px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-text-container{
+    h3{
+      padding: 20px 10px;
+      font-size: 19px;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .about-text-container{
+    h3{
+      padding: 80px;
     }
   }
 }

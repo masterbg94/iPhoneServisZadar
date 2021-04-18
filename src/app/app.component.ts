@@ -60,5 +60,6 @@ export class AppComponent {
     this.translate.use(l.value);
     this.currentLang = l;
     this.langDroped = !this.langDroped;
+    this.toggleDropDownLanguages();
   }
 }
